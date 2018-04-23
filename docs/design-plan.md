@@ -1,4 +1,4 @@
-##### Site Design Plan
+# Site Design Plan
 
 ### Colors, typography and layout
 
