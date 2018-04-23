@@ -1,9 +1,9 @@
 # Site Design Plan
 
-## Colors, typography and layout
+### Colors, typography and layout
 
 
-## Design Components
+### Design Components
 
 
-## Design Mockups
+### Design Mockups
