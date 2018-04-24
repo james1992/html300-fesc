@@ -2,8 +2,25 @@
 
 ### Colors, typography and layout
 
+For the redesigned FESC website I would like to reduce the number of competing colors on the screen.  Right now there are so many different colors in just the navigation bars that users eyes are drawn all over the page and it is difficult to focus on the most important content on the page.  In the new site the number of background colors will be reduced to a single darker color (blue, grey, black, etc.).  The text on the other hand will be something that is in stark contrast to the background to make it pop off the page.  
+
+The overall style of the text will not be famboyant but instead will feature Roboto (Body) and Open Sans (Headings) so as not to distract the user from the content of the webpage (https://fonts.google.com/?selection.family=Open+Sans:800|Roboto).  Given that this is a scientific website the font should be relatively conservative.
+
+The layout of the site will be simplified significantly to reduce the number of pages a user needs to visit to locate information.  The landing page will contain minimal information about the consortium to give the user a basic understanding of the group.  The focus of the page will be on the larger screen width size images in the background that guide the user through a list of navigation options to explorer the group in greater detail.  Sub-content will be grouped by their target audience (student, resident, scientist, etc.) instead of by area of study.  Each subpage will feature vertical scrolling to different pieces of information within the group.  There will only be one navigation bar at the top of the page, no secondary vertical navigation bars.
+
+The navigation bar will consist of hamburger menu that on click will open a menu that fills the entire page but is simplified and contains no more than 10 links.  The goal is to funnel the user to what they are searching for as quickly as possible.
 
 ### Design Components
+
+As previously mentioned that homepage will include full page images and a limitted selection of navigation options to view subcontent.  The homepage will be unique from the rest of the site pages in that it will be limtted to the size of the display (there should be no scrolling regardless of device).  The rest of the pages will utilize vertical scrolling from one piece of information to the next.  In this way the number of webpages will be greatly reduced making the website easier to manage moving forward.
+
+The header and footer will be the same on every page.  The header will include three items.  In the upper left will be a company logo that serves a dual purpose it reminds the user what site they are on and on click it will return them to the homepage.  Then in the upper right there will first be a call to action button that will open a form to allow the user to sign up for the mailing list and second will be a hamburger menu which on click will expose the website menu.  The footer will include contact information for the consortium and links to share the site on social media (Facebook and Twitter).
+
+In terms of modules the site will need several different modules that can be applied at various locations throughout the site.  Most of these elements will be rectangular in nature to accomodate the vertical scrolling design.  The first is banner image that spans the entire display width, the second and third are text mixed with images (either an image on the right or left of the screen) and the final rectangular module is all text.  These module will all have the same height to prompt consistency throughout the website.
+
+The other modules that will not follow the rectangular design are the contact page which will contain a Google Maps embed instead of a static image along with descriptive directions and the university page will follow the design principles of the 4 River Restaraunt (see below) to highlight each school.
+
+### Design Inspiration
 
 One of the main issues with the Florida Energy Systems Consortium Site (http://floridaenergy.ufl.edu/) is that it is a very busy website.  There are multiple navigation bars to review and there is neither a consistent layout or color palette.  To aid users in navigating the site there is a need to simplify the overall design.
 
