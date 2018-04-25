@@ -52,6 +52,18 @@ Images that appear flat on the page are not as visually appealing as those that 
 
 ### Design Mockups
 
+Below are a few mock designs for pages on the future FESC website.  The first is for the homepage of the website and includes minimalistic headers and footers that do not distract from the main content area.  These elements are copied across each page on the site with the exception of the site menu (accessed via the hamburger menu).  The main content area of the homepage is filled with a single high resolution image of windmills (this image will rotate as the user hovers over each link in the main content area).  Those links will then take the user to subpages within the site (those subpages are accessible via the hamburger menu as well).
 
+The header will contain the name of the consortium which will serve as a return to home button, a call to action button that will open a web form to subscribe to a newsletter and a hamburger menu.  The footer on the other hand will contain a disclaimer and link to contact the organization which will open a web form to provide questions/comments/ect.  On the other side of the footer will be a share to Facebook button and a Tweet button.  The appearance of these buttons will be customized to conform with the overall design of the page.
+
+![Mock Homepage Design](https://james1992.github.io/html300-fesc/docs/mocks-homepage.jpg)
+
+The menu will open when a user clicks on the hamburger menu in the top right of any page and it will take up the entire display.  The menu will be minimalistic with links that mirror those on the homepage with the addition of links to the consortiums Facebook and Twitter pages.  Clicking the X in the top right will return the user to the last page they visited.
+
+![Mock Menu Design](https://james1992.github.io/html300-fesc/docs/mocks-menu.jpg)
+
+The FESC website highlights each of its partner universities whenever possible so this was an element that needed a prominent place on the new site.  Instead of placing the university logos in the footer a page dedicated to the universities was developed to include a large image of each university campus with the university name over the image.  Clicking on the image will transport the user to the university's website in a new tab.  This page will be accessible via the about us page (a page that will use vertical scrolling to include all of the required content instead of a navigation bar.  Links will be available instead through a read more button in each content area.
+
+![Mock Partner Universities](https://james1992.github.io/html300-fesc/docs/mocks-partner-universities.jpg)
 
 
