@@ -2,17 +2,63 @@ $background-color: RGB(127,127,127);
 $header-font: 'Open Sans', sans-serif;
 $regular-font: 'Roboto', sans-serif;
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: blue;
-}
-
 #homepage {
-  background: url("../images/homepage-image.jpg");
+  background-image: url("../images/homepage-image.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 93vh;
+  width: auto;
+  clear: both;
+  padding-top: .01px;
+}
+
+#homepage-education {
+  background-image: url("../images/solar-panels.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 93vh;
+  width: auto;
+  clear: both;
+  padding-top: .01px;
+}
+
+#homepage-industry {
+  background-image: url("../images/energy-industry.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 93vh;
+  width: auto;
+  clear: both;
+  padding-top: .01px;
+}
+
+#homepage-outreach {
+  background-image: url("../images/outreach.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 93vh;
+  width: auto;
+  clear: both;
+  padding-top: .01px;
+}
+
+#homepage-research {
+  background-image: url("../images/research.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 93vh;
+  width: auto;
+  clear: both;
+  padding-top: .01px;
+}
+
+#homepage-about {
+  background-image: url("../images/UF-campus.jpg");
   background-size:cover;
   background-position: center;
   background-attachment: fixed;
@@ -23,21 +69,17 @@ a:hover {
 }
 
 #main-header {
-  height: 3.5vh;
+  height: 3vh;
   background-color: $background-color;
   padding-top: .5vh;
 }
 
-#main-header a {
+#main-header #name {
   float: left;
   text-decoration: none;
-  color: black;
-  padding-top: .75vh;
+  color: white;
+  padding-top: .4vh;
   font-size: 2vh;
-}
-
-#main-header a:hover {
-  color: blue;
 }
 
 #main-header #right {
@@ -52,32 +94,32 @@ a:hover {
 }
 
 #main-header #callToAction a {
-  padding-top: .3vh;
+  font-size: 2vh;
+  text-decoration: none;
+  color: black;
 }
 
 .fa-bars {
   margin-left: .5em;
   margin-right: .25em;
   padding-top: .25vh;
-}
-
-.fa-bars:hover {
   color: black;
 }
 
 #main-footer {
-  height: 3vh;
+  height: 2vh;
   background-color: $background-color;
   padding-top: .5vh;
+}
+
+#main-footer p a {
+  text-decoration: none;
+  color: white;
 }
 
 footer #copyright {
   float: left;
   padding-top: .75vh;
-}
-
-footer iframe {
-  float: right;
 }
 
 h1, h2, h3, h4, h5 {
@@ -88,7 +130,7 @@ h1 {
   font-size: 5vw;
   max-width: 50%;
   margin-bottom: 1vh;
-  padding-top: 2vh;
+  padding-top: 4vh;
 }
 
 h5 {
@@ -97,7 +139,7 @@ h5 {
   font-style: italic;
 }
 
-p, a, button {
+p, a {
   font-family: $regular-font;
 }
 
@@ -114,39 +156,43 @@ p, a, button {
 }
 
 #menu a:hover {
-  color: blue;
+  color: white;
 }
 
+/* CSS for Overlay Menu */
 
 #overlay {
-  position: fixed; /* Sit on top of the page content */
+  position: fixed; 
   display: none; /* Hidden by default */
-  width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
+  width: 100%; 
+  height: 100%; 
   top: 0; 
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,1); /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  background-color: rgba(0,0,0,1); 
+  z-index: 2; /* Make sure the menu appears on top of other content*/
 }
 
 #menu-header {
   height: 5vh;
-  background-color: rgba(0,0,0,1);
 }
 
 #menu-header a {
   float: left;
   padding-top: .75vh;
+  text-decoration: none;
+  font-size: 2vh;
 }
 
 #menu-header i {
   float: right;
+  margin-top: .5vh;
+  margin-right: .5vh;
 }
 
-#overlay a:hover {
-  color: white
+#menu-footer iframe {
+  float: right;
 }
 
 #overlay a, p, i {
@@ -154,7 +200,7 @@ p, a, button {
 }
 
 #menu-main {
-  height: 80vh;
+  height: 82vh;
   width: auto;
   clear: both;
   padding-top: 8vh;
@@ -169,7 +215,6 @@ p, a, button {
 }
 
 menu-footer {
-  height: 5vh;
-  background-color: rgba(0,0,0,1);
+  height: 3vh;
   padding-top: .5vh;
 }
