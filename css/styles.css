@@ -5,7 +5,7 @@ a {
 a:hover {
   color: blue; }
 
-main {
+#homepage {
   background: url("../images/homepage-image.jpg");
   background-size: cover;
   background-position: center;
@@ -15,31 +15,33 @@ main {
   clear: both;
   padding-top: .01px; }
 
-header {
+#main-header {
   height: 3.5vh;
   background-color: RGB(127, 127, 127);
   padding-top: .5vh; }
 
-header a {
+#main-header a {
   float: left;
   text-decoration: none;
   color: black;
   padding-top: .75vh;
   font-size: 2vh; }
 
-header a:hover {
+#main-header a:hover {
   color: blue; }
 
-header #right {
+#main-header #right {
   float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
-header #callToAction {
+#main-header #callToAction {
   background-color: RGB(254, 229, 153);
   padding: .25vh;
   border: 1px solid black; }
 
-header #callToAction a {
+#main-header #callToAction a {
   padding-top: .3vh; }
 
 .fa-bars {
@@ -50,7 +52,7 @@ header #callToAction a {
 .fa-bars:hover {
   color: black; }
 
-footer {
+#main-footer {
   height: 3vh;
   background-color: RGB(127, 127, 127);
   padding-top: .5vh; }
@@ -105,11 +107,44 @@ p, a, button {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: black;
   /* Black background with opacity */
   z-index: 2;
-  /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer;
-  /* Add a pointer on hover */ }
+  /* Specify a stack order in case you're using a different order for other elements */ }
+
+#menu-header {
+  height: 5vh;
+  background-color: black; }
+
+#menu-header a {
+  float: left;
+  padding-top: .75vh; }
+
+#menu-header i {
+  float: right; }
+
+#overlay a:hover {
+  color: white; }
+
+#overlay a, p, i {
+  color: white; }
+
+#menu-main {
+  height: 80vh;
+  width: auto;
+  clear: both;
+  padding-top: 8vh; }
+
+#menu-main a {
+  display: block;
+  margin-bottom: 3vh;
+  text-decoration: none;
+  text-align: right;
+  font-size: 4vw; }
+
+menu-footer {
+  height: 5vh;
+  background-color: black;
+  padding-top: .5vh; }
 
 /*# sourceMappingURL=styles.css.map */

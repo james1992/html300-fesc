@@ -16,18 +16,18 @@
 
 <body>
   <!-- Roughly 5% of the page -->
-  <header>
+  <header id="main-header">
     <a href="index.html">Florida Energy Systems Consortium</a>
     <!-- Each main nav element should have pull down menus to remove the side navs on the current site -->
     <div id="right">
       <div id="callToAction">
         <a href="#">Signup for our Newsletter!</a> 
       </div>
-      <a href="#" class="fas fa-bars fa-2x"></a>
+      <i class="fas fa-bars fa-2x" onclick="menuOn()"></i>
     </div>
   </header>
 
-  <main>
+  <main id="homepage">
     <!-- Move image to background 
     <img src="images/homepage-image.jpg" alt="image of ocean windmills" class="background-image"> -->
     <div id="title">
@@ -43,10 +43,27 @@
     </div>
     <!-- Roughly 5% of the page -->
   </main>
-  <footer>
+  <footer id="main-footer">
     <p id="copyright">Copyright © 2008-2015 Florida Energy Systems Consortium. | <a href="#">Contact Us</a></p>
-    <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fjames1992.github.io%2Fhtml300-fesc%2F&layout=button_count&size=large&mobile_iframe=true&width=84&height=28&appId" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </footer>
-  <div id="overlay"></div>
+  <div id="overlay">
+    <header id="menu-header">
+      <a href="index.html">Florida Energy Systems Consortium</a>
+      <!-- Each main nav element should have pull down menus to remove the side navs on the current site -->
+      <i class="fas fa-times fa-2x" onclick="menuOff()"></i>
+    </header>
+    <main id="menu-main">
+      <a href="index.html">Home</a>
+      <a href="#">Education</a>
+      <a href="#">Energy Industry</a>
+      <a href="outreach.html">Outreach</a>
+      <a href="#">Research</a>
+      <a href="about.html">About FESC</a>
+    </main>
+    <footer>
+      <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fjames1992.github.io%2Fhtml300-fesc%2F&layout=button_count&size=large&mobile_iframe=true&width=84&height=28&appId" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  </footer>
+  </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
