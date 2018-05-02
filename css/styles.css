@@ -1,3 +1,5 @@
+/*SASS Variables */
+/* Styling for each background image */
 #homepage {
   background-image: url("../images/homepage-image.jpg");
   background-size: cover;
@@ -63,17 +65,16 @@
   background-color: RGB(127, 127, 127);
   padding-top: .5vh; }
 
+/* SASS Nesting */
 #main-header #name {
   float: left;
   text-decoration: none;
   color: white;
   padding-top: .6vh;
   font-size: 1.5vw; }
-
 #main-header #right {
   float: right;
   display: flex; }
-
 #main-header .callToAction {
   background-color: RGB(254, 229, 153);
   border: 1px solid black;

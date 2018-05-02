@@ -1,6 +1,10 @@
+/*SASS Variables */
+
 $background-color: RGB(127,127,127);
 $header-font: 'Open Sans', sans-serif;
 $regular-font: 'Roboto', sans-serif;
+
+/* Styling for each background image */
 
 #homepage {
   background-image: url("../images/homepage-image.jpg");
@@ -74,23 +78,25 @@ $regular-font: 'Roboto', sans-serif;
   padding-top: .5vh;
 }
 
-#main-header #name {
-  float: left;
-  text-decoration: none;
-  color: white;
-  padding-top: .6vh;
-  font-size: 1.5vw;
-}
+/* SASS Nesting */
 
-#main-header #right {
-  float: right;
-  display:flex;
-}
-
-#main-header .callToAction {
-  background-color: RGB(254,229,153);
-  border: 1px solid black;
-  padding-top: .75vh;
+#main-header {
+  #name {
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding-top: .6vh;
+    font-size: 1.5vw;
+  }
+  #right {
+    float: right;
+    display:flex;  
+  }
+  .callToAction {
+    background-color: RGB(254,229,153);
+    border: 1px solid black;
+    padding-top: .75vh;    
+  }
 }
 
 #main-header .callToAction a {
