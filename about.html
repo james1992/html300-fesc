@@ -9,17 +9,22 @@
   <meta property="og:title"         content="Florida Energy Systems Consortium" />
   <meta property="og:description"   content="The Florida Energy Systems Consortium (FESC) was created by the Florida State government to promote collaboration among the energy experts at its 12 supported universities to share energy-related expertise. The consortium assists the state in the development and implementation of an environmentally compatible, sustainable, and efficient energy strategic plan." />
   <meta property="og:image"         content="https://icdn2.digitaltrends.com/image/renewable-energy-2-720x720.jpg?ver=1.jpg" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 
 <body>
   <!-- Roughly 5% of the page -->
-  <header>
-    <a href="index.html">Florida Energy Systems Consortium</a>
-    <!-- Each main nav element should have pull down menus to remove the side navs on the current site -->
-    <div id="callToAction">
-      <p>Signup for our Newsletter!</p> 
+  <header id="main-header">
+    <a href="index.html" id="name">Florida Energy Systems Consortium</a>
+    <div id="right">
+      <div class="callToAction">
+        <a href="#">Subscribe to our Newsletter!</a> 
+      </div>
+      <i class="fas fa-bars fa-2x" onclick="menuOn()"></i>
     </div>
-    <i class="fas fa-bars"></i>
   </header>
 
   <main>
@@ -61,11 +66,28 @@
         <a href="advisory-board.html">See All Members</a>
       </div>
     </section>
-    <!-- Roughly 5% of the page -->
-    <footer>
-      <p id="copyright">Copyright © 2008-2015 Florida Energy Systems Consortium. | Contact Us</p>
+  </main>
+  <footer id="main-footer">
+    <p id="copyright">Copyright © 2008-2015 Florida Energy Systems Consortium. | <a href="#">Contact Us</a></p>
+  </footer>
+  <div id="overlay">
+    <header id="menu-header">
+      <a href="index.html">Florida Energy Systems Consortium</a>
+      <i class="fas fa-times fa-2x" onclick="menuOff()"></i>
+    </header>
+    <div id="menu-main">
+      <a href="index.html">Home</a>
+      <a href="#">Education</a>
+      <a href="#">Energy Industry</a>
+      <a href="outreach.html">Outreach</a>
+      <a href="#">Research</a>
+      <a href="about.html">About FESC</a>
+      <a href="#">Subscribe to our Newsletter!</a>
+    </div>
+    <footer id="menu-footer">
       <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fjames1992.github.io%2Fhtml300-fesc%2F&layout=button_count&size=large&mobile_iframe=true&width=84&height=28&appId" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
     </footer>
-  </main>
+  </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
