@@ -60,6 +60,51 @@
   clear: both;
   padding-top: .01px; }
 
+/* Styling for subpage main content area */
+.content-area {
+  background-color: beige;
+  width: auto;
+  padding-top: .01px;
+  padding-right: 5%;
+  padding-left: 5%; }
+
+.content-area .content {
+  width: auto;
+  padding-top: 1vh;
+  padding: 1%; }
+
+.content h1 {
+  font-size: 4vw;
+  text-align: center; }
+
+.content h2 {
+  font-size: 2vw;
+  float: left; }
+
+.content p {
+  color: black;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 1vw; }
+
+.content ul {
+  list-style-type: circle;
+  padding-left: 5%;
+  font-size: 1vw; }
+
+.content .gallery {
+  float: clear;
+  padding-top: 3%; }
+
+.content .gallery a img {
+  width: 30%;
+  margin: 1.5%; }
+
+.fa-arrow-circle-right {
+  color: black;
+  padding-left: 1%;
+  padding-top: .1%; }
+
 #main-header {
   height: 4vh;
   background-color: RGB(127, 127, 127);
@@ -108,18 +153,18 @@ footer #copyright {
 h1, h2, h3, h4, h5 {
   font-family: "Open Sans", sans-serif; }
 
-h1 {
+#title h1 {
   font-size: 5vw;
   max-width: 50%;
   margin-bottom: 1vh;
   padding-top: 4vh; }
 
-h5 {
+#title h5 {
   font-size: 2vw;
   max-width: 50%;
   font-style: italic; }
 
-p, a {
+p, a, li {
   font-family: "Roboto", sans-serif; }
 
 #menu {
