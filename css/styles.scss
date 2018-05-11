@@ -319,6 +319,17 @@ menu-footer {
     font-size: 2.5vw;
     padding-top: 1vw;
   }
+  .content .gallery a img {
+  width: 90%;
+  margin: 4%;
+  }
+  .content p {
+  font-size: 2vw;
+  }
+
+  .content ul {
+  font-size: 2vw;
+  }
 }
 
 @media (min-width:301px)and (max-width:800px) {
@@ -334,6 +345,25 @@ menu-footer {
   }
   #menu-main a {
     font-size: 6vw;
+  }
+  .content .gallery a img {
+  width: 90%;
+  margin: 4%;
+  }
+  .content h1 {
+  font-size: 6vw;
+  text-align: center;
+  }
+  .content h2 {
+  font-size: 4vw;
+  float: left;
+  }
+  .content p {
+  font-size: 2.5vw;
+  }
+
+  .content ul {
+  font-size: 2.5vw;
   }
 }
 
@@ -361,5 +391,24 @@ menu-footer {
   }
   #menu-header a {
     font-size: 5vw;
+  }
+  .content .gallery a img {
+  width: 90%;
+  margin: 4%;
+  }
+  .content h1 {
+  font-size: 7vw;
+  text-align: center;
+  }
+  .content h2 {
+  font-size: 6.5vw;
+  float: left;
+  }
+    .content p {
+  font-size: 4vw;
+  }
+
+  .content ul {
+  font-size: 4vw;
   }
 }
