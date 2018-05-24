@@ -277,9 +277,17 @@ p, a, li {
   font-size: 4vw;
 }
 
-menu-footer {
+#menu-footer {
   height: 3vh;
   padding-top: .5vh;
+}
+
+/* CSS for Google Charts */
+
+#chart_div, #line_div {
+  margin: auto;
+  padding-top: 6vh;
+  padding-bottom: 2vh;
 }
 
 /* Media Queries */

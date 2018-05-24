@@ -28,8 +28,8 @@
   </header>
 
   <main>
-    <section>
-      <div class="content-area">
+    <section class="content-area">
+      <div class="content">
         <h1>Outreach</h1>
 
         <p>The overall twin goals of the FESC Outreach effort are to increase Florida’s energy use efficiency and to measurably reduce its emissions of greenhouse gases. Dr. Pierce Jones, Professor & Director, Program for Resources Efficient Communities, UF, leads outreach through his experience with the Florida Cooperative Extension Service.</p>
@@ -40,14 +40,10 @@
       </div>
       <!-- Probably include down arrow at the bottom of first content area to indicate scrolling -->
       <!-- Implement carousel to rotate through subjects -->
-      <div class="content-area">
-        <h1>Fact Sheets</h1>
-
-        <p>Appliances and Electronics</p>
-
-        <p>Contractors and Certifications</p>
-
-        <p>Financing and Incentives</p>
+      <div class="content">
+        <h2>Florida Energy Usage Quick Facts</h2>
+        <div id="chart_div" style="width: 1000px; height: 500px;"></div>
+        <div id="line_div" style="width: 1000px; height: 500px;"></div>
       </div>
     </section>
   </main>
@@ -73,6 +69,7 @@
       <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fjames1992.github.io%2Fhtml300-fesc%2F&layout=button_count&size=large&mobile_iframe=true&width=84&height=28&appId" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
     </footer>
   </div>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
