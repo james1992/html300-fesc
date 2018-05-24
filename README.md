@@ -60,3 +60,16 @@ Given the current internet climate it is likely impossible to find a website tha
 - Make sure that all linked content, forms, etc. actually works on the new site. Several links and forms on the current webpage do not work. Perform a thorough review of the site and correct any issues in the new website.
 - Implement an image carousel on the homepage to promote the efforts of the FESC. Make use of Bootstrap to implement the carousel.
 
+## Google Charts
+
+### Area Chart
+
+- https://developers.google.com/chart/interactive/docs/gallery/areachart
+
+I picked the area chart as one of the Google Charts to include in the FESC website because it offers an easy to interpret graphic depicting the difference in scale between the total energy consumption of the State of Florida and the amount of energy produced by renewable sources.  Since there are data points for each year it is possible to interpret the relative change of the two variables over time.  Since energy consumption is the larger variable it is displayed "behind" the amount of energy produced from renewable sources.  The renewable sources portion of the chart takes up the relative proportion of total energy consumption.  The drawback to this graph is that while it offers a quick depiction of the relative difference between two variables it is difficult to find the exact proportion.
+
+### Line Chart
+
+- https://developers.google.com/chart/interactive/docs/gallery/linechart
+
+A line chart offers a mor precise look at an individual variable so the data graphed in the chart is (renewable energy / total consumption).  In essence this chart tells the same story as the area chart but it does so in a way that allows viewers to quickly see the proportion of energy produced by renewable sources.  With the same temporal data it is possible to view the change over time in the proportion of energy produced by renewable sources since the data is normalized by year.  The chart tells the story of the overall boom in energy consumption relative to renewable energy production. 
