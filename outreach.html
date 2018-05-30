@@ -17,15 +17,9 @@
 
 <body>
   <!-- Roughly 5% of the page -->
-  <header id="main-header">
-    <a href="index.html" id="name">Florida Energy Systems Consortium</a>
-    <div id="right">
-      <div class="callToAction">
-        <a href="#">Subscribe to our Newsletter!</a> 
-      </div>
-      <i class="fas fa-bars fa-2x" onclick="menuOn()"></i>
-    </div>
-  </header>
+    <header class="main-header" id="header-component">
+        <heading></heading>
+    </header>
 
   <main>
     <section class="content-area">
@@ -48,8 +42,8 @@
     </section>
   </main>
     <!-- Roughly 5% of the page -->
-  <footer id="main-footer">
-    <p id="copyright">Copyright © 2008-2015 Florida Energy Systems Consortium. | <a href="#">Contact Us</a></p>
+  <footer class="main-footer" id="footer-component">
+    <footing></footing>
   </footer>
   <div id="overlay">
     <header id="menu-header">
@@ -72,5 +66,8 @@
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script src="js/script.js"></script>
   <script src="js/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/vue/1.0.16/vue.js"></script>
+  <script src="js/header-component.js"></script>
+  <script src="js/footer-component.js"></script>
 </body>
 </html>
