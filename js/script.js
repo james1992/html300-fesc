@@ -1,4 +1,4 @@
-console.log('linked')
+console.log('script.js linked')
 function menuOn() {
     document.getElementById("overlay").style.display = "block";
 }
@@ -160,7 +160,7 @@ var dataLine = google.visualization.arrayToDataTable([
 ])
 
 var optionsLine = {
-  title: 'Company Performance',
+  title: 'Florida Energy Consumption from Renewable Sources',
   hAxis: {title: 'Year'},
   vAxis: {title: 'Fraction of Energy Consumption'},
   curveType: 'function',
