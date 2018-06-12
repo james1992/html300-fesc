@@ -73,3 +73,10 @@ I picked the area chart as one of the Google Charts to include in the FESC websi
 - https://developers.google.com/chart/interactive/docs/gallery/linechart
 
 A line chart offers a mor precise look at an individual variable so the data graphed in the chart is (renewable energy / total consumption).  In essence this chart tells the same story as the area chart but it does so in a way that allows viewers to quickly see the proportion of energy produced by renewable sources.  With the same temporal data it is possible to view the change over time in the proportion of energy produced by renewable sources since the data is normalized by year.  The chart tells the story of the overall boom in energy consumption relative to renewable energy production. 
+
+### EIA API Documentation Links
+
+The links below describe how to add in the renewable energy production and total energy consumption data diretly from the Energy Information Administration.  This replaces static JSON data and instead the charts will update automatically as EIA adds new data.
+
+- https://www.eia.gov/opendata/qb.php?category=40236&sdid=SEDS.TETCB.FL.A
+- https://www.eia.gov/opendata/qb.php?category=40426&sdid=SEDS.REPRB.FL.A
